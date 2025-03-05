@@ -1,0 +1,60 @@
+
+.mobile-nav{
+   overflow: hidden;
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index:1; 
+  
+}
+
+.mobile-nav-header{
+  height:50px;
+width:100%;
+    color:#ffffff;
+   padding:8px;    font-size: 1.5rem;
+    font-weight: bold;
+    background-color:#f6093c;
+   
+  
+}
+.mobile-nav-icon{
+    color:#ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+.mobile-nav-title{
+    text-transform: capitalize;
+    vertical-align: middle;
+    margin-left: 25px;
+    color:#00bec5;
+    font-family:sans-serif;
+   
+}
+
+.mobile-nav-menu .nav-items{
+    height:auto;
+   position: fixed;
+    background-color: #f6093c;
+   width:100%;
+    color:#ffffff;
+    font-weight: bold;
+    padding-left: 2rem;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    
+}
+
+@media (min-width:600px){
+    .mobile-nav{
+        display: none;
+    }
+
+    
+}
+
+/*<About/>
+<Education/>
+<Techstack/>
+<Project />
+<Contact/>*/

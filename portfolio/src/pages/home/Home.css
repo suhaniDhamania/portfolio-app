@@ -1,0 +1,152 @@
+.home-container {
+  height: 100vh;
+  color: white;
+  padding-left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rockwell", "Franklin Gothic Medium", Arial, sans-serif;
+  width: 100%;
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+h2 {
+  color: #f6093c;
+}
+
+.hello::after {
+  content: "I AM";
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Aclonica";
+  letter-spacing: 4px;
+  position: relative;
+  left: 1rem;
+  top: 1rem;
+  font-weight: bold;
+  font-family: Typewriter;
+  font-family: "Baloo Bhaina 2", serif;
+}
+
+.home-btns {
+  margin-top: 30px;
+}
+.link-btn {
+  border: 2px solid #f6093c;
+  color: aliceblue;
+  background-color: #f6093c;
+  padding: 8px;
+  width: 130px;
+  cursor: pointer;
+}
+.link-btn:hover {
+  border: 2px solid #f6093c;
+  color: #f6093c;
+  background-color: transparent;
+}
+
+.btn-resume {
+  margin-left: 50px;
+}
+
+.social-media-icon {
+  display: flex;
+  margin-top: 30px;
+  font-size: 2.5rem;
+}
+.social-media-icon a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social-media-icon a :hover {
+  transform: scale(1.2, 1.2);
+  color: #f6093c;
+  text-shadow: 0 0 20px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff,
+    0 0 10px #ffffff;
+}
+
+.social-media-icon a:not(:first-child) {
+  margin-left: 5rem;
+}
+
+.home-3d-icon img {
+  width: 30rem;
+}
+
+@media (max-width: 600px) {
+  .home-3d-icon img {
+    width: 250px;
+  }
+
+  .home-container {
+    padding-left: 2px;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-resume {
+    margin-left: 30px;
+  }
+  .link-btn {
+    padding: 4px;
+    width: 100px;
+    cursor: pointer;
+  }
+  .social-media-icon {
+    margin-top: 20px;
+    font-size: 2.5rem;
+  }
+
+  .social-media-icon a:not(:first-child) {
+    margin-left: 3.5rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .home-container {
+    padding-left: 12rem;
+    flex-wrap: wrap;
+  }
+
+  .home-3d-icon img {
+    width: 450px;
+  }
+  .home-container {
+    padding-left: 11rem;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    margin-top: 20px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 200px;
+  }
+
+  .social-media-icon {
+    margin-top: 40px;
+    font-size: 4rem;
+  }
+  .social-media-icon a:not(:first-child) {
+    margin-left: 6rem;
+  }
+
+  h3 {
+    margin-top: 30px;
+  }
+
+  .hello {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}

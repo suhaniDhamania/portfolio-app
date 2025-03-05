@@ -1,0 +1,139 @@
+.project {
+  background-color: #00bec5;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
+}
+
+.top {
+  color: #f6093c;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35rem;
+  color: #ffffff;
+  margin-left: 150px;
+  border-radius: 5px;
+}
+
+.project-image {
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.card-body {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 5rem;
+}
+
+.project-info {
+  width: 30rem;
+  height: 20rem;
+  background-color: #f6093c;
+  text-align: justify;
+  padding: 0 1rem 0 1rem;
+  border-radius: 5px;
+  margin-left: 5rem;
+  position: absolute;
+  font-size: 20px;
+}
+
+.see-btn {
+  background-color: #00bec5;
+}
+
+.see-btn:hover {
+  background-color: white;
+  color: #00bec5;
+  border: 2px solid #00bec5;
+  transition: all 0.8s ease-in;
+}
+
+.btn-backword,
+.btn-forward {
+  color: #f6093c;
+  font-size: 30px;
+}
+
+.btn-forward {
+  position: absolute;
+  right: 120px;
+}
+
+@media (max-width: 600px) {
+  .project {
+    padding: 0;
+  }
+
+  .card-container {
+    margin: 0;
+  }
+
+  .btn-backword,
+  .btn-forward {
+    font-size: 10px;
+  }
+
+  .project-image {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+  }
+
+  .project-info {
+    width: 14rem;
+    height: 16rem;
+    background-color: #f6093c;
+    font-size: 11px;
+  }
+  .card-container {
+    width: 100%;
+  }
+  .btn-forward {
+    right: 0px;
+  }
+  .top {
+    padding-top: 4rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .card-container {
+    margin-left: 0;
+    margin-top:15rem;
+    padding-left: 5rem;
+  }
+  .btn-backword,
+  .btn-forward {
+    color: #f6093c;
+    width: 60px;
+  }
+  .project-info {
+    margin-left: 10rem;
+    height:23rem;
+  }
+  .btn-forward {
+    right: 2px;
+    top:15rem;
+  }
+  .card-body {
+    margin-left: 1rem;
+  }
+  .project {
+    padding-top:5rem;
+
+  }
+  
+  
+  
+}

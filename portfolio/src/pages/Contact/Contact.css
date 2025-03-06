@@ -71,7 +71,9 @@ border-radius:0px;
     height:70vh;
   }
   .google-form{
-    display: none;
+    position: relative;
+    right: 28px;
+    width:20rem;
   }
   .contacts-cards{
     display:none;

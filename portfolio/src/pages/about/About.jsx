@@ -11,14 +11,14 @@ const About = () => {
         <div className="row col-12  ">
         
             <div className="col-md-6 About-image">
-            <div data-aos="fade-right">
+          
               <img className="a-image" src={myImage} alt="Image" />
               </div>
-            </div>
+           
             
             <div className="col-md-6 content">
               <h1 className="head ">About me👧</h1>
-              <div data-aos="fade-left">
+             
               <p className="about-text">
                 Hello! My name is Suhani Dhamania, and I am passionate about
                 building innovative and impactful solutions that live on the
@@ -50,7 +50,7 @@ const About = () => {
                 innovative projects that have a meaningful impact on society.
                 Together, let's build a brighter and more inclusive future!
               </p>
-            </div>
+           
             </div>
         </div>
       </div>

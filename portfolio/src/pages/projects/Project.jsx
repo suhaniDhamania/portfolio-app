@@ -28,7 +28,7 @@ const Project = () => {
             code.
           </p>
         </div>
-        <div data-aos="zoom-in">
+        
           {projects.length > 0 && (
             <div className="card-container">
               <div className="back-btn">
@@ -69,7 +69,7 @@ const Project = () => {
               </div>
             </div>
           )}
-        </div>
+        
       </div>
     </>
   );

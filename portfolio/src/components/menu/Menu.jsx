@@ -13,11 +13,11 @@ const Menu = ({ isToggled }) => {
     <>
       {!isToggled ? (
         <>
-        <div data-aos="fade-down">
+        
           <div className="navbar-profile-pic">
             <img src={profilepic} alt="profile-pic" />
           </div>
-          </div>
+      
           <div data-aos="fade-right">
           <div className="nav-items">
             <div className="nav-item icons">

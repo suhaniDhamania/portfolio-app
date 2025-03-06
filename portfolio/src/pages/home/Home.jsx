@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="container-fluid home-container " id="home">
       <div className="container home-content">
-      <div data-aos="fade-down">
+      
           <h1 className="hello">Hello,</h1>
           <h3>Suhani Dhamania</h3>
           <h2>
@@ -32,8 +32,8 @@ const Home = () => {
             Welcome to my Portfolio.Exited to share my Creative Journey with
             you. let's Dive into some awesome projects together!
           </p>
-          </div>
-          <div data-aos="fade-up">
+          
+       
           <div className="home-btns">
             <Link  to="contact"
                     spy={true}
@@ -79,12 +79,12 @@ const Home = () => {
             </a>
           </div>
       
+     
       </div>
-      </div>
-      <div data-aos="fade-left">
+     
         <div className="home-3d-icon">
           <img src={icon} alt="3dicon" />
-        </div>
+       
      </div>
     </div>
   );

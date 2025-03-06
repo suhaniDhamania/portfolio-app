@@ -11,7 +11,7 @@ const Techstack = () => {
           👉 including programming languages, frameworks, database, front-end
           and back-end tools, and APIs.
         </p>
-        <div data-aos="fade-right">
+       
         <div className="skills ">
           {TechstackList.map((tech) => (
             <div key={tech._id} className="row">
@@ -26,7 +26,7 @@ const Techstack = () => {
             </div>
           ))}
         </div>
-        </div>
+        
       
       </div>
     </div>

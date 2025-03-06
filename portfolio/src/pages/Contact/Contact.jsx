@@ -7,7 +7,7 @@ const Contact = () => {
       <h1 className="cont-text">CONTACT FORM</h1>
 
       <div className="contact-head">
-        <div data-aos="flip-up">
+       
           <div className="contacts-cards">
             {contactlist.map((cont) => (
               <a
@@ -28,9 +28,9 @@ const Contact = () => {
               </a>
             ))}
           </div>
-        </div>
+       
 
-        <div data-aos="fade-left">
+        
           <div className="card google-form">
             <h3>Get in Touch</h3>
             <br />
@@ -46,7 +46,7 @@ const Contact = () => {
             >
               Open Contact Form
             </a>
-          </div>
+          
         </div>
       </div>
     </div>

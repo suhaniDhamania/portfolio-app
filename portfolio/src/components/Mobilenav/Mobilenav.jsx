@@ -31,13 +31,13 @@ const Mobilenav = () => {
               onClick={handleOpen}
             />
           )}
-
+<div data-aos="fade-left">
           <span className="mobile-nav-title">My Portfolio App</span>
-          
+          </div>
         </div>
         {open && (
           <div className="mobile-nav-menu">
-           
+           <div data-aos="fade-right">
             <div className="nav-items">
               <div className="nav-item ">
                 <div className="nav-link">
@@ -144,7 +144,7 @@ const Mobilenav = () => {
                 </div>
               </div>
             </div>
-           
+           </div>
           </div>
         )}
         

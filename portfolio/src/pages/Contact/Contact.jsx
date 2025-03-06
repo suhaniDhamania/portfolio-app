@@ -4,7 +4,7 @@ import { contactlist } from "../../utils/contactlist";
 const Contact = () => {
   return (
     <div className="contact" id="contact">
-      <h1 className="cont-text">Contact Form</h1>
+      <h1 className="cont-text">CONTACT FORM</h1>
 
       <div className="contact-head">
         <div data-aos="flip-up">

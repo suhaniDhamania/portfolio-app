@@ -19,7 +19,7 @@ const Project = () => {
   return (
     <>
       <div className="project" id="project">
-        <div className="text  mt-4">
+        <div className="text  mt-5">
           <h1 className="col-12 text-center text-uppercase top">
             Top Recent Projects
           </h1>

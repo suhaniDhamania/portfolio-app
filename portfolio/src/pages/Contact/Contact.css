@@ -73,6 +73,7 @@ border-radius:0px;
   .google-form{
     position: relative;
     right: 28px;
+    width:20rem;
   }
   .contacts-cards{
     display:none;

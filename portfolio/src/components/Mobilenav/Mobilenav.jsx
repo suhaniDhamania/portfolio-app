@@ -31,9 +31,9 @@ const Mobilenav = () => {
               onClick={handleOpen}
             />
           )}
-<div data-aos="fade-left">
+
           <span className="mobile-nav-title">My Portfolio App</span>
-          </div>
+         
         </div>
         {open && (
           <div className="mobile-nav-menu">

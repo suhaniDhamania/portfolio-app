@@ -3,7 +3,7 @@ import TypeWritter from "typewriter-effect";
 import icon from "../../assets/Budget Planning (1).png"
 import React from "react";
 import { Link } from "react-scroll";
-import resume from "../../assets/frontend resume(suhani Dhamania).pdf";
+import resume from "../../assets/cv-.pdf";
 
 const Home = () => {
   return (
